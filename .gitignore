@@ -1,0 +1,6 @@
+youtube/telegram-youtube/.env
+fifo
+node_modules/
+*.session
+*.session-journal
+.env
