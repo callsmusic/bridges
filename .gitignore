@@ -4,3 +4,4 @@ node_modules/
 *.session
 *.session-journal
 .env
+__pycache__
