@@ -1,3 +1,7 @@
+# Telegram call — YouTube live bridge
+
+Works for Facebook and Twitch too.
+
 ## Requirements
 
 -   Python
