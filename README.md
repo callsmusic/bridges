@@ -6,9 +6,7 @@ Experimental bridges between Telegram calls and other platforms.
 
 ## Current bridges
 
--   [Telegram-YouTube](./bridges/youtube/telegram-youtube)
--   [Telegram-Facebook](./bridges/youtube/telegram-youtube)
--   [Telegram-Twitch](./bridges/youtube/telegram-youtube)
+-   [Bridge 1](./bridges/bridge-1)
 
 ## Work-in-progress bridges
 

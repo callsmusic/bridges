@@ -1,6 +1,6 @@
-# Telegram call — YouTube live bridge
+# Bridge 1
 
-Works for Facebook and Twitch too.
+This bridges audio of a Telegram call with your provided photo/video as background to YouTube, Facebook and Twitch live streams. It might support other platforms as well, but only the three were tested.
 
 ## Requirements
 
