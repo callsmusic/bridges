@@ -22,5 +22,5 @@ bash bridge.sh
 
 ## Authors
 
--   [@rojerbest](https://github.com/alemidev)
+-   [@rojerbest](https://github.com/rojserbest)
 -   [@alemidev](https://github.com/alemidev)
