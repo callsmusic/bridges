@@ -13,14 +13,24 @@ ffmpeg \
   48K \
   -i \
   "$OUTPUT" \
-  -deinterlace \
-  -vcodec \
+  -c:v \
   libx264 \
-  -pix_fmt \
-  yuv420p \
   -preset \
-  medium \
-  -r 30 -g 60 -b:v 2500K \
-  -acodec libmp3lame -ar 44100 \
-  -threads 6 -qscale 3 -b:a 712K -bufsize 512k \
-  -f flv "$STREAM_URL"
+  veryfast \
+  -b:v \
+  1984k \
+  -maxrate 1984k \
+  -bufsize 3968k \
+  -vf \
+  "format=yuv420p" \
+  -g \
+  60 \
+  -c:a \
+  aac \
+  -b:a \
+  128k \
+  -ar \
+  44100 \
+  -f \
+  flv \
+  "$STREAM_URL"
