@@ -12,7 +12,7 @@ ffmpeg \
   -ar \
   48K \
   -i \
-  "$OUTPUT" \
+  "$FIFO" \
   -c:v \
   libx264 \
   -preset \

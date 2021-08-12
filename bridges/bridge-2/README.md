@@ -1,6 +1,6 @@
-# Bridge 1
+# Bridge 2
 
-This bridges audio of a Telegram call with your provided photo/video as background to YouTube, Facebook and Twitch live streams. It might support other platforms as well, but only the three were tested.
+This bridges audio of a Telegram call to OBS Studio.
 
 ## Requirements
 
@@ -20,7 +20,13 @@ This bridges audio of a Telegram call with your provided photo/video as backgrou
 bash bridge.sh
 ```
 
+## Using on OBS Studio
+
+1. Add a Media Source.
+2. Uncheck "Local File".
+3. Set "Input" to the path of the FIFO that Ffmpeg is writing to.
+4. Set "Input Format" to mp3.
+
 ## Authors
 
 -   [@rojerbest](https://github.com/rojserbest)
--   [@alemidev](https://github.com/alemidev)

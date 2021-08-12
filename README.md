@@ -1,16 +1,16 @@
 # Bridges by Calls Music
 
-Experimental bridges between Telegram calls and other platforms. 
+Experimental bridges between Telegram calls and other platforms.
 
 ---
 
 ## Current bridges
 
--   [Bridge 1](./bridges/bridge-1)
+-   [Bridge 1](./bridges/bridge-1) (YouTube, Twitch, Facebook, etc...)
+-   [Bridge 2](./bridges/bridge-2) (OBS Studio)
 
 ## Work-in-progress bridges
 
--   [Telegram-OBS](./bridges/obs/telegram-obs)
 -   [Telegram-Discord](./bridges/discord/telegram-discord)
 -   [Discord-Telegram](./bridges/discord/discord-telegram)
 
