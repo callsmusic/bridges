@@ -1,1 +1,0 @@
-This bridge could record the call and send it to a named pipe just like Telegram-YouTube bridge but encode it in a common format like mp3 or mp4 because OBS Studio doesn't let setting custom bitrate/channels for s16le format.
