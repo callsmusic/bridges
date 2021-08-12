@@ -1,7 +1,7 @@
-youtube/telegram-youtube/.env
-fifo
-node_modules/
+*.fifo
 *.session
 *.session-journal
 .env
-__pycache__
+node_modules/
+__pycache__/
+dist/
