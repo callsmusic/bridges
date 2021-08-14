@@ -10,13 +10,22 @@ try:
 except FileExistsError:
     pass
 
+fifo = None
+
+
+def write_data(_, data: bytes, length: int):
+    global fifo
+
+    if not fifo:
+        fifo = open(OUTPUT, "wb")
+
+    fifo.write(data)
+
 
 async def main():
     await client.start()
-    group_call = GroupCallFactory(client).get_file_group_call(
-        output_filename=OUTPUT, play_on_repeat=True
-    )
-    await group_call.start(CHAT_ID, join_as=JOIN_AS)
+    raw = GroupCallFactory(client).get_raw_group_call(on_recorded_data=write_data)
+    await raw.start(CHAT_ID, join_as=JOIN_AS)
     await idle()
 
 
