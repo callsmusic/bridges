@@ -14,7 +14,7 @@ except FileExistsError:
 async def main():
     await client.start()
     group_call = GroupCallFactory(client).get_file_group_call(
-        OUTPUT, play_on_repeat=True
+        output_filename=OUTPUT, play_on_repeat=True
     )
     await group_call.start(CHAT_ID, join_as=JOIN_AS)
     await idle()
