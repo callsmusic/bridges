@@ -1,6 +1,7 @@
 export $(cat .env | xargs)
 
 ffmpeg \
+  -loglevel error \
   -loop \
   1 \
   -i \
