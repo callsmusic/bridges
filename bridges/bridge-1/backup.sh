@@ -26,4 +26,4 @@ ffmpeg \
   44100 \
   -f \
   flv \
-  "$STREAM_URL"
+  "$BACKUP_URL"
