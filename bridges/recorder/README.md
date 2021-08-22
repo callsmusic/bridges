@@ -20,5 +20,5 @@ python -m recorder
 
 ## Authors
 
--   [@rojerbest](https://github.com/rojserbest)
+-   [@rojserbest](https://github.com/rojserbest)
 -   [@alemidev](https://github.com/alemidev)
