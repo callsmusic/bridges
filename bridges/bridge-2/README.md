@@ -29,4 +29,4 @@ bash bridge.sh
 
 ## Authors
 
--   [@rojerbest](https://github.com/rojserbest)
+-   [@rojserbest](https://github.com/rojserbest)
