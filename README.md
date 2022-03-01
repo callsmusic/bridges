@@ -4,6 +4,11 @@ Experimental bridges between Telegram calls and other platforms.
 
 ---
 
+## Deprecation notice
+
+This project is unmaintained since 1st of March.
+Telegram now natively allows using software like OBS.
+
 ## Current bridges
 
 -   [Bridge 1](./bridges/bridge-1) (YouTube, Twitch, Facebook, etc...)
